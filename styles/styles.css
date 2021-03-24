@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "raleway";
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+li {
+    list-style-type: none;
+    padding: 1.4rem;
+}
+li:hover {
+    border-top: solid;
+    border-top-color: #0065FC;
+    transition: ease-in-out 0.2s;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color:#0065FC ;
+}
+/********** NAVBAR **********/
+header {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.register {
+    color: #0065FC;
+    font-weight: bold;
+}
+nav a {
+    padding: 1.4rem;
+}
+/********** Section Recherche **********/
+
+/****** Barre de recherche *****/
+
+#recherche-et-filtres h1, p {
+    padding-top: 0.5rem;
+}
+#barreDeRecherche {
+    display: flex;
+    margin-bottom: 2rem;
+    margin-top: 1.3rem;
+}
+#loupe{
+    display: none;
+}
+#mapMarker {
+    border-radius: 15px 0 0 15px;
+    background-color: #F2F2F2;
+    display: flex;
+    padding: 1% 1%;
+}
+#ville {
+    padding: 0 0 0 1rem;
+}
+#barreDeRecherche input[type=text] {
+	border: 1px solid #f2f2f2;
+	font-size: 17px;
+	font-weight: bold;
+}
+#barreDeRecherche input[type=button]{
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    padding: 1% 1%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/***** Filtres *****/
+
+#divFiltres {
+    display: flex;
+    margin-top: 2rem;
+}
+
+#sousDivFiltres {
+    display: flex;
+    padding-left: 1rem;
+}
+.Filtre {
+    display: flex;
+    border: solid 2px  #f2f2f2;
+    border-radius: 25px 25px 25px 25px;
+    align-items: center;
+    margin: 0.5rem;
+}
+.Filtre p  {
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 0.4rem;
+    padding-right: 1rem;
+}
+
+#p {
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+.icon {
+    border-radius: 100%;
+    background-color: #DEEBFF;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #0065FC;
+
+}
+/***** Info *****/
+#info {
+    display: flex;
+    align-items: center;
+}
+#infoIcon {
+    background-color: white;
+    border-radius: 100%;
+    border: 1px solid #F2F2F2;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.fa-info {
+    padding-right: 1rem;
+    color: #0065FC;
+    padding-left: 0.6rem;
+    padding-top: 0.2rem;
+}
+#info p {
+  padding-left: 1rem;
+}
+
+/***** Section Hébergements et populaires *****/
+#hebergements-et-populaires {
+    display: flex;
+    margin-top: 2rem;
+}
+
+
+
+/***** images hébergements et populaires *****/
+
+#photoCannebiere {
+    background: url(/images/hebergements/2_large/La_cannebière.jpg) no-repeat;
+    background-size: cover;
+    background-position:50% 30% ;
+}
+#photoHotelDuPort {
+    background: url(/images/hebergements/2_large/hotel_du_port.jpg) no-repeat;
+    background-size: cover;
+}
+#photoHotelLesMouettes {
+    background: url(/images/hebergements/2_large/hotel_les_mouettes.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#photoHotelDeLaMer {
+    background: url(/images/hebergements/2_large/hotel_de_la_mer.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#photoAubergeLePanier {
+    background: url(/images/hebergements/2_large/auberge_le_panier.jpg)no-repeat;
+    background-size: cover;
+}
+#photoHotelAmina {
+    background: url(/images/hebergements/2_large/hotel_chez_amina.jpg)no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#photoHotelLeSoleilDuMatin {
+    background: url(/images/hebergements/2_large/hotel_le_soleil_du_matin.jpg) no-repeat;
+    background-size:cover;
+}
+#photoAuCoeurDeLeau {
+    background: url(/images/hebergements/2_large/au_coeur_de_leau.jpg)no-repeat;
+    background-size: cover;
+}
+#photoToutBleuEtBlanc {
+    background: url(/images/hebergements/2_large/hotel_tout_bleu_et_blanc.jpg)no-repeat;
+    background-size: cover;
+}
+/***** Hébergements *****/
+#container-herbergements {
+    background-color: #f2f2f2;
+    border-radius: 20px 20px 20px 20px;
+    width: 70%;
+}
+.carteHeb{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 15px;
+	background-color: white;
+	padding: 0.5%;
+	margin: 2% 3% 2% 0;
+	width: 28%;
+	height:  240px;
+	overflow: hidden;
+}
+.photoHeb {
+    position: relative;
+    height: 55%;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+#titre-hebergement {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+#containerCarteHebergements {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+}
+
+.carteHeb:hover {
+    cursor: pointer;
+}
+
+
+/***** Populaires *****/
+#containerPopulaires {
+    background-color: #f2f2f2;
+    width: 30%;
+    margin-left: 2rem;
+    border-radius: 20px 20px 20px 20px;
+}
+.texteSousImage :nth-child(1) {
+    font-weight: bold;
+}
+
+/****** Stars *****/
+
+.fa-star {
+    color: #0065FC;
+}
+#la-cannebiere .containerStars :nth-child(5) {
+    color:grey;
+}
+#hotel-les-mouettes .containerStars :nth-child(5) {
+    color:grey;
+}
+#hotel-de-la-mer .containerStars :nth-child(4){
+    color: grey;
+}
+#hotel-de-la-mer .containerStars :nth-child(5){
+    color: grey;
+}
+#auberge-le-panier .containerStars :nth-child(5) {
+    color:grey;
+}
+#au-coeur-de-leau .containerStars :nth-child(5) {
+    color: grey;
+}

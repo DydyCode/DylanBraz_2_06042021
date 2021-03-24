@@ -1,0 +1,52 @@
+/*navbar*/
+@media all and (max-width:1024px){
+    li:hover {
+        border-top: none;
+        border-bottom: solid;
+        border-bottom-color: #0065FC;
+        transition: ease-in-out 0.2s;
+    }
+    .register{
+		position: absolute;
+		top:2.5rem;
+        right: 2rem;
+        padding: 0%;
+        font-size: 1.2rem;
+	}
+    header {
+        margin: 4%; 0 3rem 0;
+        display: block;
+    }
+   
+	header nav ul li {
+		font-size: 1.2rem;
+	}
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+    #recherche-et-filtres h1, p {
+        text-align: center;
+    }
+    #barreDeRecherche {
+        display: flex;
+        justify-content: center;
+        
+    }
+    #loupe {
+        display: flex;
+        background-color: #0065FC;
+        color: white;
+        border: none;
+        border-radius: 5px 5px 5px 5px;
+        padding: 1% 1%;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    #barreDeRecherche input[type=button] {
+        display: none;
+    }
+    #sousDivFiltres {
+        flex-wrap: wrap;
+    }
+}
