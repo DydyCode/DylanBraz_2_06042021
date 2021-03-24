@@ -7,6 +7,7 @@ body {
     font-family: "raleway";
     margin-left: 1rem;
     margin-right: 1rem;
+    display: inline-block;
 }
 li {
     list-style-type: none;
@@ -142,55 +143,57 @@ nav a {
   padding-left: 1rem;
 }
 
-/***** Section Hébergements et populaires *****/
-#hebergements-et-populaires {
-    display: flex;
-    margin-top: 2rem;
-}
-
-
-
 /***** images hébergements et populaires *****/
 
 #photoCannebiere {
     background: url(/images/hebergements/2_large/La_cannebière.jpg) no-repeat;
     background-size: cover;
-    background-position:50% 30% ;
+    background-position:60% 40% ;
 }
 #photoHotelDuPort {
     background: url(/images/hebergements/2_large/hotel_du_port.jpg) no-repeat;
     background-size: cover;
+    background-position: 30% 70%;
 }
 #photoHotelLesMouettes {
     background: url(/images/hebergements/2_large/hotel_les_mouettes.jpg) no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 20% 80%;
 }
 #photoHotelDeLaMer {
     background: url(/images/hebergements/2_large/hotel_de_la_mer.jpg) no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 40% 60%;
 }
 #photoAubergeLePanier {
     background: url(/images/hebergements/2_large/auberge_le_panier.jpg)no-repeat;
     background-size: cover;
+    background-position: 50% 50%;
 }
 #photoHotelAmina {
     background: url(/images/hebergements/2_large/hotel_chez_amina.jpg)no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 40% 60%;
 }
 #photoHotelLeSoleilDuMatin {
     background: url(/images/hebergements/2_large/hotel_le_soleil_du_matin.jpg) no-repeat;
     background-size:cover;
+    background-position: 50% 50%;
 }
 #photoAuCoeurDeLeau {
-    background: url(/images/hebergements/2_large/au_coeur_de_leau.jpg)no-repeat;
+    background: url(/images/hebergements/1_xlarge/au-coeur-de-leau.jpg)no-repeat;
     background-size: cover;
+    background-position: 10% 90%;
 }
 #photoToutBleuEtBlanc {
     background: url(/images/hebergements/2_large/hotel_tout_bleu_et_blanc.jpg)no-repeat;
     background-size: cover;
+    background-position: 20% 80%;
+}
+/***** Section Hébergements et populaires *****/
+#hebergements-et-populaires {
+    display: flex;
+    margin-top: 2rem;
 }
 /***** Hébergements *****/
 #container-herbergements {
@@ -201,14 +204,14 @@ nav a {
 .carteHeb{
     display: flex;
 	flex-direction: column;
-	align-items: center;
 	border-radius: 15px;
 	background-color: white;
 	padding: 0.5%;
 	margin: 2% 3% 2% 0;
 	width: 28%;
-	height:  240px;
+	height:  180px;
 	overflow: hidden;
+    box-shadow: -7px 10px 20px -5px rgba(0,0,0,0.61);
 }
 .photoHeb {
     position: relative;
@@ -231,9 +234,29 @@ nav a {
 .carteHeb:hover {
     cursor: pointer;
 }
+.texteSousImage {
+    padding-left: 1rem;
+}
 
+.texteSousImage .containerStars {
+    padding-top: 0.5rem;
+}
+#afficherPlus {
+    font-weight: bold;
+    width: 100px;
+    padding:3% 0 5% 4%;
+}
 
 /***** Populaires *****/
+#container-pop-icon {
+    display: flex;
+    margin: 5% 5% 5% 10%;
+}
+.fa-chart-line {
+    padding-left: 5rem;
+    padding-top: 0.4rem;
+    font-size: 20px;
+}
 #containerPopulaires {
     background-color: #f2f2f2;
     width: 30%;
@@ -243,11 +266,36 @@ nav a {
 .texteSousImage :nth-child(1) {
     font-weight: bold;
 }
+.cartePop{
+    display: flex;
+	border-radius: 15px;
+    background-color: white;
+    padding: 2% 0 0 2%;
+    margin: 8% 5% 5% 5%;
+    box-shadow: -7px 10px 20px -5px rgba(0,0,0,0.61);
+}
+.photoPop {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px 0 0 15px;
+}
+.texteDroite {
+    padding-left: 1rem;
+}
+.texteDroite :nth-child(1) {
+    font-weight: bold;
+}
+.texteDroite .containerStars {
+    padding-top: 1rem;
+}
+
 
 /****** Stars *****/
 
 .fa-star {
     color: #0065FC;
+    font-size: 12px;
 }
 #la-cannebiere .containerStars :nth-child(5) {
     color:grey;
@@ -266,4 +314,120 @@ nav a {
 }
 #au-coeur-de-leau .containerStars :nth-child(5) {
     color: grey;
+}
+
+/***** Images Activités *****/
+
+#photoVieuxPort {
+    background: url(/images/activites/1_xlarge/Vieux-Port.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 400px;
+    width: 300px;
+}
+#photoFortDePomègues {
+    background: url(/images/activites/1_xlarge/Fort-de-pomègues.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#photoÎlesDuFrioul {
+    background: url(/images/activites/1_xlarge/Iles-du-frioul.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#photoLesCalanques {
+    background: url(/images/activites/1_xlarge/les-calanques.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 400px;
+    width: 300px;
+}
+#photoDameDeLaGarde {
+    background: url(/images/activites/1_xlarge/notre-dame-de-la-garde.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#photoParcLongchamp {
+    background: url(/images/activites/1_xlarge/parc-longchamp.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/***** Activités *****/
+#ContainerActvites {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+#ContainerActvites p {
+    padding: 10px 0 10px 10px;
+}
+#TitreActivites {
+    padding-top: 3rem;
+}
+#ColonneGauche {
+  display: flex;
+  flex-direction: column;
+}
+#ColonneDroite {
+    display: flex;
+    flex-direction: column;
+}
+.carteActivites {
+    display: flex;
+	flex-direction: column;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+#ActivitesGauche{
+    display: flex;
+    justify-content: space-between;
+}
+#ActivitesDroite {
+    display: flex;
+    justify-content: space-between;
+}
+.photoActivites {
+    height: 150px;
+    width: 280px;
+    border-radius: 15px 15px 0 0;
+    box-shadow: -7px 10px 20px -5px rgba(0,0,0,0.61);
+}
+.TexteSousImageActivites {
+    position: relative;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    font-weight: bold;
+    padding: 0 0 10px 10px;
+    text-align: start;
+    box-shadow: -7px 10px 20px -5px rgba(0,0,0,0.61);
+}
+#ColonneGauche {
+   padding-left: 3rem;
+}
+#LesCalanques {
+    padding-right: 3rem;
+}
+
+/***** Footer *****/
+
+#containerFooter p {
+    padding-top: 1rem;
+}
+#containerFooter {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #F2F2F2;
+    margin-top: 5rem;
+}
+#Apropos {
+    padding-left: 2rem;
+}
+#NosHebergements {
+    padding-left: 15rem;
+}
+#Assistance {
+    padding-left: 20rem;
 }
