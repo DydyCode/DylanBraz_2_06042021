@@ -272,6 +272,7 @@ nav a {
     background-color: white;
     padding: 2% 0 0 2%;
     margin: 8% 5% 5% 5%;
+    height: 110px;
     box-shadow: -7px 10px 20px -5px rgba(0,0,0,0.61);
 }
 .photoPop {
@@ -357,6 +358,7 @@ nav a {
 #ContainerActvites {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 1rem;
 }
 #ContainerActvites p {
@@ -367,10 +369,12 @@ nav a {
 }
 #ColonneGauche {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 #ColonneDroite {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 .carteActivites {
@@ -381,10 +385,12 @@ nav a {
 }
 #ActivitesGauche{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 #ActivitesDroite {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .photoActivites {
