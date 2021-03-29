@@ -61,70 +61,71 @@
     }
        /***** Hébergements et populaires *****/
 
-#hebergements-et-populaires {
-    flex-direction: column-reverse;
-}
+    #hebergements-et-populaires {
+        flex-direction: column-reverse;
+    }
 
-/****** Populaires ******/
+    /****** Populaires ******/
 
-#containerPopulaires {
-    width: 90%;
-}
-#container-pop-icon {
-    justify-content: center;
-}
-   /***** Hébergements *****/
+    #containerPopulaires {
+        width: 90%;
+    }
+    #container-pop-icon {
+        justify-content: center;
+    }
+    /***** Hébergements *****/
 
-.photoHeb {
-       height: 70%;
-   }
-#containerCarteHebergements {
-flex-direction: column;
-}
-#container-herbergements {
-    width: 90%;
-    margin-left: 2rem;
-    margin-top: 1rem;
-}
-.carteHeb {
-    width: 70%;
-    height:280px;
-    margin-left: 5rem;
-}
-/****** Activités *****/
-#ContainerActvites {
-    flex-wrap: nowrap;
-}
-
-#photoLesCalanques {
-    height: 150px;
-    width: 280px;
-}
-#photoVieuxPort {
-    height: 150px;
-    width: 280px;
-}
-#VieuxPort {
-    margin-left: 3rem; ;
-}
-
-/***** Footer *****/
-
-#containerFooter {
+    .photoHeb {
+        height: 70%;
+    }
+    #containerCarteHebergements {
     flex-direction: column;
-    justify-content: center;
-}
-#Apropos {
-    padding-left: 0;
-    padding-top: 1rem;
-}
-#NosHebergements {
-    padding-left: 0;
-    padding-top: 1rem;
-}
-#Assistance {
-    padding-left: 0;
-    padding-top: 1rem;
+    }
+    #container-herbergements {
+        width: 90%;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    .carteHeb {
+        width: 70%;
+        height:280px;
+        margin-left: 5rem;
+    }
+    /****** Activités *****/
+    #ContainerActvites {
+        flex-wrap: nowrap;
+    }
+
+    #photoLesCalanques {
+        height: 150px;
+        width: 280px;
+    }
+    #photoVieuxPort {
+        height: 150px;
+        width: 280px;
+    }
+    #VieuxPort {
+        margin-left: 3rem; ;
+    }
+
+    /***** Footer *****/
+
+    #containerFooter {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #Apropos {
+        padding-left: 0;
+        padding-top: 1rem;
+    }
+    #NosHebergements {
+        padding-left: 0;
+        padding-top: 1rem;
+    }
+    #Assistance {
+        padding-left: 0;
+        padding-top: 1rem;
+    }
 }
 
 @media all and (max-width:812px){
@@ -156,9 +157,16 @@ flex-direction: column;
         padding-left: 2rem;
         padding-top: 1rem;
     }
+    ul li .hebergements {
+        margin-left: 1rem;
+    }
+    #sousDivFiltres {
+        margin-top: 2rem;
+    }
 }
 
-@media all and (max-width:740px){
+@media all and (max-width:740px)
+{
     .fa-chart-line {
         padding-left: 50px;
     }
@@ -168,5 +176,4 @@ flex-direction: column;
     #ContainerActvites {
         flex-wrap: wrap;
     }
-    
 }
