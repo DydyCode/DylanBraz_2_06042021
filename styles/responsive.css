@@ -75,7 +75,7 @@
     }
     /***** Hébergements *****/
 
-    .photoHeb {
+    .photoHebergements {
         height: 70%;
     }
     #containerCarteHebergements {
@@ -86,7 +86,7 @@
         margin-left: 2rem;
         margin-top: 1rem;
     }
-    .carteHeb {
+    .carteHebergements {
         width: 70%;
         height:280px;
         margin-left: 5rem;
@@ -142,7 +142,7 @@
     p {
         font-size: 15px;
     }
-    .carteHeb {
+    .carteHebergements {
         width: 90%;
         margin-left: 0;
         margin-top: 1rem;
@@ -170,7 +170,7 @@
     .fa-chart-line {
         padding-left: 50px;
     }
-    .carteHeb {
+    .carteHebergements {
         height: 170px;
     }
     #ContainerActvites {

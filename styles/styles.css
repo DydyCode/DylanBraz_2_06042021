@@ -201,7 +201,7 @@ nav a {
     border-radius: 20px 20px 20px 20px;
     width: 70%;
 }
-.carteHeb{
+.carteHebergements{
     display: flex;
 	flex-direction: column;
 	border-radius: 15px;
@@ -231,7 +231,7 @@ nav a {
     padding-left: 2rem;
 }
 
-.carteHeb:hover {
+.carteHebergements:hover {
     cursor: pointer;
 }
 .texteSousImage {
@@ -266,7 +266,7 @@ nav a {
 .texteSousImage :nth-child(1) {
     font-weight: bold;
 }
-.cartePop{
+.cartePopulaires{
     display: flex;
 	border-radius: 15px;
     background-color: white;
@@ -275,7 +275,7 @@ nav a {
     height: 110px;
     box-shadow: -7px 10px 20px -5px rgba(0,0,0,0.61);
 }
-.photoPop {
+.photoPopulaires {
     position: relative;
     height: 100px;
     width: 100px;
