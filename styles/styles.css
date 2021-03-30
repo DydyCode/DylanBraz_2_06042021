@@ -144,51 +144,23 @@ nav a {
 }
 
 /***** images hébergements et populaires *****/
-
 #photoCannebiere {
-    background: url(/images/hebergements/2_large/La_cannebière.jpg) no-repeat;
-    background-size: cover;
-    background-position:60% 40% ;
+    object-position: 70% 30%;
 }
 #photoHotelDuPort {
-    background: url(/images/hebergements/2_large/hotel_du_port.jpg) no-repeat;
-    background-size: cover;
-    background-position: 30% 70%;
+    object-position: 10% 90%;
 }
 #photoHotelLesMouettes {
-    background: url(/images/hebergements/2_large/hotel_les_mouettes.jpg) no-repeat;
-    background-size: cover;
-    background-position: 20% 80%;
+    object-position: 10% 90%;
 }
 #photoHotelDeLaMer {
-    background: url(/images/hebergements/2_large/hotel_de_la_mer.jpg) no-repeat;
-    background-size: cover;
-    background-position: 40% 60%;
+    object-position: 30% 70%;
 }
 #photoAubergeLePanier {
-    background: url(/images/hebergements/2_large/auberge_le_panier.jpg)no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
+    object-position: 80% 20%;
 }
 #photoHotelAmina {
-    background: url(/images/hebergements/2_large/hotel_chez_amina.jpg)no-repeat;
-    background-size: cover;
-    background-position: 40% 60%;
-}
-#photoHotelLeSoleilDuMatin {
-    background: url(/images/hebergements/2_large/hotel_le_soleil_du_matin.jpg) no-repeat;
-    background-size:cover;
-    background-position: 50% 50%;
-}
-#photoAuCoeurDeLeau {
-    background: url(/images/hebergements/1_xlarge/au-coeur-de-leau.jpg)no-repeat;
-    background-size: cover;
-    background-position: 10% 90%;
-}
-#photoToutBleuEtBlanc {
-    background: url(/images/hebergements/2_large/hotel_tout_bleu_et_blanc.jpg)no-repeat;
-    background-size: cover;
-    background-position: 20% 80%;
+    object-position: 40% 60%;
 }
 /***** Section Hébergements et populaires *****/
 #hebergements-et-populaires {
@@ -213,7 +185,8 @@ nav a {
 	overflow: hidden;
     box-shadow: -7px 10px 20px -5px rgba(0,0,0,0.61);
 }
-.photoHeb {
+.photoHebergements {
+    object-fit: cover;
     position: relative;
     height: 55%;
     width: 100%;
