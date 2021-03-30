@@ -162,6 +162,9 @@ nav a {
 #photoHotelAmina {
     object-position: 40% 60%;
 }
+#photoHotelLeSoleilDuMatin {
+    object-position: 40% 60%;
+}
 /***** Section Hébergements et populaires *****/
 #hebergements-et-populaires {
     display: flex;
@@ -249,6 +252,7 @@ nav a {
     box-shadow: -7px 10px 20px -5px rgba(0,0,0,0.61);
 }
 .photoPopulaires {
+    object-fit: cover;
     position: relative;
     height: 100px;
     width: 100px;
