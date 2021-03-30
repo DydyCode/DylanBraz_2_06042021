@@ -297,40 +297,14 @@ nav a {
 /***** Images Activités *****/
 
 #photoVieuxPort {
-    background: url(/images/activites/1_xlarge/Vieux-Port.jpg) no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
+    object-position: 20% 80%;
     height: 400px;
     width: 300px;
-}
-#photoFortDePomègues {
-    background: url(/images/activites/1_xlarge/Fort-de-pomègues.jpg) no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-}
-#photoÎlesDuFrioul {
-    background: url(/images/activites/1_xlarge/Iles-du-frioul.jpg) no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
 }
 #photoLesCalanques {
-    background: url(/images/activites/1_xlarge/les-calanques.jpg) no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
     height: 400px;
     width: 300px;
 }
-#photoDameDeLaGarde {
-    background: url(/images/activites/1_xlarge/notre-dame-de-la-garde.jpg) no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-}
-#photoParcLongchamp {
-    background: url(/images/activites/1_xlarge/parc-longchamp.jpg) no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
 /***** Activités *****/
 #ContainerActvites {
     display: flex;
@@ -371,6 +345,7 @@ nav a {
     justify-content: space-between;
 }
 .photoActivites {
+    object-fit: cover;
     height: 150px;
     width: 280px;
     border-radius: 15px 15px 0 0;
