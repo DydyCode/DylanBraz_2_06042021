@@ -9,6 +9,9 @@ body {
     margin-right: 1rem;
     display: inline-block;
 }
+span {
+    font-weight: bold;
+}
 li {
     list-style-type: none;
     padding: 1.4rem;
