@@ -186,7 +186,7 @@ nav a {
 	width: 28%;
 	height:  180px;
 	overflow: hidden;
-    box-shadow: -7px 10px 20px -5px rgba(0,0,0,0.61);
+    box-shadow:-3px 3px 14px -1px rgba(151,148,148,0.75);
 }
 .photoHebergements {
     object-fit: cover;
@@ -249,7 +249,7 @@ nav a {
     padding: 2% 0 0 2%;
     margin: 8% 5% 5% 5%;
     height: 110px;
-    box-shadow: -7px 10px 20px -5px rgba(0,0,0,0.61);
+    box-shadow: -3px 3px 14px -1px rgba(151,148,148,0.75);
 }
 .photoPopulaires {
     object-fit: cover;
@@ -353,7 +353,7 @@ nav a {
     height: 150px;
     width: 280px;
     border-radius: 15px 15px 0 0;
-    box-shadow: -7px 10px 20px -5px rgba(0,0,0,0.61);
+    box-shadow:-3px 3px 14px -1px rgba(151,148,148,0.75);
 }
 .TexteSousImageActivites {
     position: relative;
@@ -362,7 +362,7 @@ nav a {
     font-weight: bold;
     padding: 0 0 10px 10px;
     text-align: start;
-    box-shadow: -7px 10px 20px -5px rgba(0,0,0,0.61);
+    box-shadow:-3px 3px 14px -1px rgba(151,148,148,0.75);
 }
 #ColonneGauche {
    padding-left: 3rem;
