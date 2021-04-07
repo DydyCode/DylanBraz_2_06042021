@@ -9,7 +9,7 @@ body {
     margin-right: 1rem;
     display: inline-block;
 }
-span {
+.bold {
     font-weight: bold;
 }
 li {
@@ -281,12 +281,7 @@ nav a {
 }
 
 /***** Images Activités *****/
-#ÎlesDuFrioul {
-    padding-top: 3rem;
-}
-#ParcLongchamp {
-    padding-top: 3rem;
-}
+
 #photoVieuxPort {
     object-position: 20% 80%;
     height: 400px;
