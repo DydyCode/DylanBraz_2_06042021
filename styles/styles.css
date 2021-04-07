@@ -276,22 +276,7 @@ nav a {
     color: #0065FC;
     font-size: 12px;
 }
-#la-cannebiere .containerStars :nth-child(5) {
-    color:grey;
-}
-#hotel-les-mouettes .containerStars :nth-child(5) {
-    color:grey;
-}
-#hotel-de-la-mer .containerStars :nth-child(4){
-    color: grey;
-}
-#hotel-de-la-mer .containerStars :nth-child(5){
-    color: grey;
-}
-#auberge-le-panier .containerStars :nth-child(5) {
-    color:grey;
-}
-#au-coeur-de-leau .containerStars :nth-child(5) {
+.greyStar {
     color: grey;
 }
 
