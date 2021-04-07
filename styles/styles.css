@@ -348,10 +348,6 @@ nav a {
     text-align: start;
     box-shadow:-3px 3px 14px -1px rgba(151,148,148,0.75);
 }
-#ColonneGauche {
-   padding-left: 3rem;
-}
-
 /***** Footer *****/
 
 #containerFooter p {
