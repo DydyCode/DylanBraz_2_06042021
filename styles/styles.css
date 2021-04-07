@@ -308,15 +308,12 @@ nav a {
 #TitreActivites {
     padding-top: 3rem;
 }
-#ColonneGauche {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-#ColonneDroite {
+
+.Colonne {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-right: 2rem;
     margin-left: 3rem;
 }
 .carteActivites {
