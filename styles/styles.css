@@ -179,6 +179,11 @@ nav a {
     border-radius: 20px 20px 20px 20px;
     width: 70%;
 }
+#containerCarteHebergements {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+}
 .carteHebergements{
     display: flex;
 	flex-direction: column;
@@ -193,7 +198,6 @@ nav a {
 }
 .photoHebergements {
     object-fit: cover;
-    position: relative;
     height: 55%;
     width: 100%;
     border-radius: 15px 15px 0 0;
@@ -201,12 +205,6 @@ nav a {
 #titre-hebergement {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    padding-left: 2rem;
-}
-
-#containerCarteHebergements {
-    display: flex;
-    flex-wrap: wrap;
     padding-left: 2rem;
 }
 
