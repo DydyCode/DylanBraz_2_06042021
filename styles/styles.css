@@ -317,6 +317,7 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-left: 3rem;
 }
 .carteActivites {
     display: flex;
@@ -352,9 +353,6 @@ nav a {
 }
 #ColonneGauche {
    padding-left: 3rem;
-}
-#LesCalanques {
-    padding-right: 3rem;
 }
 
 /***** Footer *****/
