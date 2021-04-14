@@ -74,7 +74,9 @@
         justify-content: center;
     }
     /***** Hébergements *****/
-
+    .texteSousImage {
+        text-align: center;
+    }
     .photoHebergements {
         height: 70%;
     }
@@ -95,15 +97,29 @@
     #ContainerActvites {
         flex-wrap: nowrap;
     }
-
-    #photoLesCalanques {
-        height: 150px;
+    #ContainerActvites img {
+        height: 160px;
         width: 280px;
     }
-    #photoVieuxPort {
-        height: 150px;
-        width: 280px;
+    
+    .Iles-du-frioul, .parc-longchamp{
+        margin-top: 0;
     }
+    #ActivitesGauche {
+        padding: 1.5rem;
+    }
+    #ActivitesDroite {
+        margin-top: 1.3rem;
+    }
+    .lesCalanques {
+        padding-bottom: 0;
+    }
+   .Groupe {
+       margin-right: 5rem;
+   }
+   .Colonne {
+       margin-left: 0;
+   }
     #VieuxPort {
         margin-left: 3rem; ;
     }
@@ -164,6 +180,13 @@
         margin-top: 2rem;
     }
 }
+#ActivitesGauche {
+    padding: 2.5rem;
+}
+#ActivitesDroite {
+    margin-left: 2.5rem;
+}
+
 
 @media all and (max-width:740px)
 {

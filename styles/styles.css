@@ -205,7 +205,7 @@ nav a {
 #titre-hebergement {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    padding-left: 2rem;
+    padding-left: 3rem;
 }
 
 .carteHebergements:hover {
@@ -213,6 +213,7 @@ nav a {
 }
 .texteSousImage {
     padding-left: 1rem;
+    padding-top: 0.3rem;
 }
 
 .texteSousImage .containerStars {
@@ -297,18 +298,21 @@ nav a {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-#ContainerActvites p {
+#ContainerActvites h4 {
     padding: 10px 0 10px 10px;
 }
 #TitreActivites {
     padding-top: 3rem;
+}
+.Iles-du-frioul, .parc-longchamp{
+    margin-top: 2.8rem;
 }
 
 .Colonne {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-left: 4rem; 
+    margin-left: 1rem; 
 }
 .carteActivites {
     display: flex;
@@ -351,7 +355,7 @@ nav a {
     padding-top: 3rem;
     padding-bottom: 3rem;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     background-color: #F2F2F2;
     margin-top: 5rem;
 }
