@@ -327,6 +327,7 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-left: 2rem;
 }
 .photoActivites {
     object-fit: cover;
