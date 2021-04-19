@@ -201,6 +201,27 @@
     }
 }
 @media all and (max-width:568px) {
+    body {
+        width: 320px;
+        margin: 0;
+        padding: 0;
+    }
+    #containerPopulaires {
+        justify-content: center;
+    }
+    #ContainerActvites {
+        margin-left: 1rem;
+    }
+    #ActivitesDroite {
+        margin-top: 0;
+    }
+    #ActivitesGauche {
+        margin-bottom: 0;
+        padding: 0;
+    }
+    #TitreActivites {
+        margin-bottom: 1rem;
+    }
     .fa-star {
         font-size: 10px;
     }
