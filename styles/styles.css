@@ -5,8 +5,6 @@
 
 body {
     font-family: "raleway";
-    margin-left: 1rem;
-    margin-right: 1rem;
     display: inline-block;
 }
 .bold {
@@ -294,6 +292,7 @@ nav a {
 }
 /***** Activités *****/
 #ContainerActvites {
+    padding-left: 1rem;
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
