@@ -4,6 +4,7 @@
 }
 
 body {
+    margin: 0;
     font-family: "raleway";
     display: inline-block;
 }
@@ -176,6 +177,7 @@ nav a {
     background-color: #f2f2f2;
     border-radius: 20px 20px 20px 20px;
     width: 70%;
+    margin: auto;
 }
 #containerCarteHebergements {
     display: flex;
@@ -236,7 +238,7 @@ nav a {
 #containerPopulaires {
     background-color: #f2f2f2;
     width: 30%;
-    margin-left: 2rem;
+    margin-left: 1rem;
     border-radius: 20px 20px 20px 20px;
 }
 .texteSousImage :nth-child(1) {
@@ -292,9 +294,8 @@ nav a {
 }
 /***** Activités *****/
 #ContainerActvites {
-    padding-left: 1rem;
     display: flex;
-    justify-content:center;
+    justify-content:space-between;
     flex-wrap: wrap;
 }
 #ContainerActvites h4 {
@@ -308,26 +309,29 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-left: 1rem; 
+    margin: auto;
 }
 .carteActivites {
     display: flex;
 	flex-direction: column;
     padding-top: 1rem;
     cursor: pointer;
-    padding: .9rem;
+    padding-bottom: .9rem;
+    padding-right: .9rem; 
+    margin: auto;
 }
-#ActivitesGauche{
+.ActivitesGauche{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 50%;
 }
-#ActivitesDroite {
+.ActivitesDroite {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 2rem;
     padding-top: .8rem;
+    width: 50%;
 }
 .photoActivites {
     object-fit: cover;
@@ -341,7 +345,7 @@ nav a {
     background-color: white;
     border-radius: 0 0 10px 10px;
     font-weight: bold;
-    padding: 0 0 10px 10px;
+    padding: 0 0 0 10px;
     text-align: start;
     box-shadow:-3px 3px 14px -1px rgba(151,148,148,0.75);
 }

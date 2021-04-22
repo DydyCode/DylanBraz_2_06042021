@@ -29,8 +29,6 @@
         display: flex;
         justify-content: center;
     }
-    /***** Section Recherche *****/
-
     /****** Barre de recherche *****/
     #info{
         padding-left: 4rem;
@@ -59,7 +57,7 @@
     #sousDivFiltres {
         flex-wrap: wrap;
     }
-       /***** Hébergements et populaires *****/
+     /***** Hébergements et populaires *****/
 
     #hebergements-et-populaires {
         flex-direction: column-reverse;
@@ -69,6 +67,7 @@
 
     #containerPopulaires {
         width: 90%;
+        margin: auto;
     }
     #container-pop-icon {
         justify-content: center;
@@ -85,13 +84,11 @@
     }
     #container-herbergements {
         width: 90%;
-        margin-left: 2rem;
         margin-top: 1rem;
     }
     .carteHebergements {
         width: 70%;
         height:280px;
-        margin-left: 5rem;
     }
     /****** Activités *****/
     #ContainerActvites {
@@ -101,15 +98,11 @@
         height: 160px;
         width: 280px;
     }
-    
+    .carteActivites  {
+        padding-right: 0;
+    }
     .Iles-du-frioul, .parc-longchamp{
         margin-top: 0;
-    }
-    #ActivitesGauche {
-        padding: 1.5rem;
-    }
-    #ActivitesDroite {
-        margin-top: 1.3rem;
     }
     .lesCalanques {
         padding-bottom: 0;
@@ -117,12 +110,6 @@
    .Groupe {
        margin-right: 5rem;
    }
-   .Colonne {
-       margin-left: 0;
-   }
-    #VieuxPort {
-        margin-left: 3rem; ;
-    }
 
     /***** Footer *****/
 
@@ -160,11 +147,13 @@
     }
     .carteHebergements {
         width: 90%;
-        margin-left: 0;
         margin-top: 1rem;
     }
-    #ActivitesDroite {
-        margin-left: 3rem;
+    .ActivitesDroite {
+        width: 100%;
+    }
+    .ActivitesGauche {
+        width: 100%;
     }
     .containerStars {
       text-align: center;
@@ -173,21 +162,10 @@
         padding-left: 2rem;
         padding-top: 1rem;
     }
-    ul li .hebergements {
-        margin-left: 1rem;
-    }
     #sousDivFiltres {
         margin-top: 2rem;
     }
 }
-#ActivitesGauche {
-    padding: 2.5rem;
-}
-#ActivitesDroite {
-    margin-left: 2.5rem;
-}
-
-
 @media all and (max-width:740px)
 {
     .fa-chart-line {
@@ -202,22 +180,11 @@
 }
 @media all and (max-width:568px) {
     body {
-        width: 320px;
         margin: 0;
         padding: 0;
     }
     #containerPopulaires {
         justify-content: center;
-    }
-    #ContainerActvites {
-        margin-left: 1rem;
-    }
-    #ActivitesDroite {
-        margin-top: 0;
-    }
-    #ActivitesGauche {
-        margin-bottom: 0;
-        padding: 0;
     }
     #TitreActivites {
         margin-bottom: 1rem;
