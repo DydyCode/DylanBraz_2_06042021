@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0">
     <link  type="text/css" rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" media="all and (max-width:820px)" href="styles/responsive.css">
     <link type="text/css" rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,7 +16,7 @@
 <body>
     <!--NAVBAR-->
     <header>
-        <img src="./images/logo/Reservia@3x.png" alt="reservia" width="120">
+        <img src="./images/logo/Reservia@3x.png" id="logoReservia" alt="reservia" width="120">
         <nav>
             <ul>
                 <li>
@@ -39,13 +39,14 @@
     </header>
     <!--Section recherche et filtres -->
    <section id="recherche-et-filtres">
+       <div id="TitreRechercheEtFiltres">
        <h1>
            Trouvez votre hébergement pour des vacances de rêve
         </h1>
         <p>
             En plein centre ville ou en pleine nature
         </p>
-
+        </div>
        <form action="traitementFormulaire" id="barreDeRecherche">
            <div id="mapMarker">
                <i class="fas fa-map-marker-alt"></i>
@@ -108,9 +109,9 @@
            <div id="infoIcon">
                <i class="fas fa-info"></i>
            </div>
-           <p>
+           <span id="infoSpan">
                Plus de 500 logements sont disponibles dans cette ville
-            </p>
+            </span>
        </div>
    </section>
     <!--Section Hébergements et populaires -->
@@ -118,9 +119,9 @@
         <!--Section Hébergements-->
         <article id="container-herbergements">
             <div id="titre-hebergement">
-                <h3>
+                <h2>
                     Hébergements à Marseille
-                </h3>
+                </h2>
             </div>
             <div id="containerCarteHebergements">
                 <article class="carteHebergements">

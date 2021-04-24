@@ -4,8 +4,6 @@
 }
 
 body {
-    margin: 0;
-    font-family: "raleway";
     display: inline-block;
 }
 .bold {
@@ -28,6 +26,9 @@ a:hover {
     color:#0065FC ;
 }
 /********** NAVBAR **********/
+#logoReservia {
+    margin-left: 1rem;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -50,10 +51,15 @@ nav a {
 #recherche-et-filtres h1, p {
     padding-top: 0.5rem;
 }
+
+#infoSpan {
+    margin-left: .5rem;
+}
 #barreDeRecherche {
     display: flex;
     margin-bottom: 2rem;
-    margin-top: 1.3rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
 }
 #loupe{
     display: none;
@@ -96,7 +102,7 @@ nav a {
 .Filtre {
     display: flex;
     border: solid 2px  #f2f2f2;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 40px 40px 40px 40px;
     align-items: center;
     margin: 0.5rem;
 }
@@ -111,12 +117,13 @@ nav a {
     font-size: 17px;
     font-weight: bold;
     padding-top: 1rem;
+    margin-left: 1rem;
 }
 .icon {
     border-radius: 100%;
     background-color: #DEEBFF;
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,6 +134,8 @@ nav a {
 #info {
     display: flex;
     align-items: center;
+    margin-left: 1rem;
+    margin-right: 2rem;
 }
 #infoIcon {
     background-color: white;
@@ -231,7 +240,7 @@ nav a {
     margin: 5% 5% 5% 10%;
 }
 .fa-chart-line {
-    padding-left: 5rem;
+    padding-left: 4rem;
     padding-top: 0.4rem;
     font-size: 20px;
 }
@@ -358,16 +367,9 @@ nav a {
     padding-top: 3rem;
     padding-bottom: 3rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
     background-color: #F2F2F2;
     margin-top: 5rem;
 }
-#Apropos {
-    padding-left: 2rem;
-}
-#NosHebergements {
-    padding-left: 15rem;
-}
-#Assistance {
-    padding-left: 20rem;
-}
+
