@@ -1,52 +1,55 @@
-@media (max-width:1280px) {
-    .photoHebergements {
-        height: 70%;
-    } 
-}
 
-@media (max-width:768px){
-    body  {
-        display: flex;
-        flex-direction: column;
-    }
-    /* header */ 
-    .register{
-		position: absolute;
-		top:55px;
-        right: 20px;
-        padding: 0%;
-        font-size: 1.2rem;
-	}
-    header {
-        margin: 4% 0 3em 0;
-        display: inline-block;
-    }
-    /* navbar */
-    li:hover {
-        border-top: none;
-        border-bottom: solid;
-        border-bottom-color: #0065FC;
-        transition: ease-in-out 0.2s;
-    }
-	header nav ul li {
-		font-size: 1.2rem;
-	}
-    ul {
-        display: flex;
-        justify-content: center;
-    }
-    /****** Barre de recherche *****/
-    #info {
-        margin-left: 2.3rem;
-    }
-    /* #recherche-et-filtres h1, p {
-        text-align: center;
-    } */
-    #barreDeRecherche {
-        display: flex;
-        justify-content: center;
-        
-    }
+/* Affichage mobile */
+
+@media (max-width:880px) {
+
+    /* Hebergements et populaires */
+    
+        #titre-hebergement {
+        padding-left: 1rem;
+        }
+
+        #hebergements-et-populaires {
+        flex-direction: column-reverse;
+        }
+        #containerPopulaires {
+        background-color: #f2f2f2;
+        width: 100%;
+        margin-left: 0;
+        border-radius:0;
+        }
+        #container-pop-icon {
+        justify-content: space-between;
+        }
+        .cartePopulaires {
+            padding: 1% 1% 1% 1%;
+            height: 100px;
+            margin: 2% 2% 2% auto;
+        }
+        #container-herbergements {
+            background-color: white;
+            border-radius: 0;
+            width: 100%;
+            margin: auto;
+        }
+        .ActivitesDroite {
+            padding-top: 0;
+        }
+        .cartePopulaires {
+            margin-left: auto;
+            margin-right: auto;
+        }
+}
+@media (max-width:830px) {
+        .photoActivites, #photoVieuxPort, #photoLesCalanques {
+            height: 140px;
+            width: 300px;
+        }
+}
+@media (max-width:830px) {
+
+    /* Apparition de la loupe */
+
     #loupe {
         display: flex;
         background-color: #0065FC;
@@ -57,285 +60,220 @@
         font-size: 16px;
         cursor: pointer;
     }
+
+    /* Disparition du buton rechercher */
+
+    #barreDeRecherche input[type=button]{
+        display: none;
+    }
     #mapMarker {
         padding: 2% 2%;
     }
-    #barreDeRecherche input[type=button] {
-        display: none;
-    }
-    #sousDivFiltres {
-        flex-wrap: wrap;
-    }
-    #p {
-        margin-left: 2.3rem;
-    }
-     /***** Hébergements et populaires *****/
-     #container-herbergements {
-         background-color: white;
-     }
-    #hebergements-et-populaires {
-        flex-direction: column-reverse;
-    }
+}
+@media (max-width:620px) {
 
-    /****** Populaires ******/
+    /*header */
 
-    #containerPopulaires {
-        width: 90%;
-        margin: auto;
-    }
-    /***** Hébergements *****/
-    .texteSousImage {
+    #TitreRechercheEtFiltres {
         text-align: center;
     }
-    .photoHebergements {
-        height: 70%;
+
+    /* Filtres */
+
+    #info {
+        padding-top: 1rem;
+        justify-content: center;
     }
+
+    /*Hébergements a Marseille */
+
     #containerCarteHebergements {
-    flex-direction: column;
-    padding-left: 0;
-    margin: auto;
-    }
-    #container-herbergements {
-        width: 90%;
-        margin-top: 1rem;
-    }
-    .carteHebergements {
-        width: 100%;
-        height:350px;
-        margin-left:0;
-        padding-left: 0; */
-    }
-    /****** Activités *****/
-    #ContainerActvites {
-        flex-wrap: nowrap;
-    }
-    #ContainerActvites img {
-        height: 160px;
-        width: 280px;
-    }
-    .carteActivites  {
-        padding-right: 0;
-    }
-    .Iles-du-frioul, .parc-longchamp{
-        margin-top: 0;
-    }
-    .lesCalanques {
-        padding-bottom: 0;
-    }
-   .Groupe {
-       margin-right: 5rem;
-   }
-
-    /***** Footer *****/
-
- 
-    #Apropos {
-        width: 100px;
-    }
-    #NosHebergements {
-        width: 100px;
-    }
-    #Assistance {
-        width: 100px;
-    }
-}
-@media (max-width:414px) {
-    .register {
-        top: 22px;
-    }
-    header {
-        margin: 0;
-    }
-    #TitreRechercheEtFiltres{
-        padding-left: 10px;
-        padding-right: 70px;
-    }
-    #containerPopulaires {
-        width: 100%;
-        border-radius: 0;
-    }
-    .carteHebergements {
-        height: 200px;
-    }
-    #ContainerActvites {
         flex-direction: column;
     }
-    .ActivitesGauche {
-        width: 100%;
-    }
-    .ActivitesDroite {
-        width: 100%;
-    }
-}
-@media (max-width:375px){
-/* header */ 
-.register {
-    top: 38px;
-}
-/* Filtres */
-#infoSpan {
-    margin-left: .5rem;
-    margin-top: .5rem;
-    font-size: 13px;
-    padding-bottom: .4rem;
-}
-    .fa-chart-line {
-        padding-left: 70px;
-        padding-top: 2px;
-        font-size: 18px;
-    }
-     h2 {
-        font-size: 18px;
-        text-align: center;
-    }
-    p {
-        font-size: 15px;
-    }
     .carteHebergements {
-        width: 90%;
-        margin-top: 1rem;
+        width: 95%;
+        height: 240px;
     }
-    .ActivitesDroite {
-        width: 100%;
+    .photoHebergements {
+        height: 65%;
     }
-    .ActivitesGauche {
-        width: 100%;
+
+    /* Activités à Marseille */
+
+    #ContainerActvites {
+        display: block;
+        margin-left: 15%;
     }
-    .containerStars {
-      text-align: center;
-    }
-    #afficherPlus {
-        padding-left: 2rem;
-        padding-top: 1rem;
-    }
-    #sousDivFiltres {
-        margin-top: 2rem;
+    .photoActivites, #photoVieuxPort, #photoLesCalanques {
+        height: 200px;
+        width: 400px;
     }
 }
-@media (max-width:360px) {
+@media (max-width: 540px) {
+
+    /*header*/
+
     .register {
-        top: 25px;
+        position: absolute;
+        top: 0%;
+        right: 1%;
     }
-    .fa-chart-line {
-        padding-left: 50px;
+    header {
+        display: inline-block;
+        width: 100%;
     }
+    ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* Hébergements */
+
     .carteHebergements {
-        height: 170px;
-        margin-left: auto;
+        width: 95%;
+        margin: 2% auto 2% auto;
+    }
+        #containerCarteHebergements {
+        padding-left: 0;
+    }
+
+    /* Activités */
+
+    .carteActivites {
+    padding-right: 0rem;
     }
     #ContainerActvites {
-        flex-wrap: wrap;
+    margin-left: 0;
+    }
+    .ActivitesGauche {
+    width: 100%;
+    }
+    .ActivitesDroite {
+    width: 100%;
+    }
+
+}
+@media (max-width: 500px) {
+    #containerFooter {
+        flex-direction: column;
+    }
+    #NosHebergements {
+        padding-top: 1rem;
+    }
+    #Assistance {
+        padding-top: 1rem;
+    }
+} 
+@media (max-width: 400px) {
+    .photoActivites, #photoVieuxPort, #photoLesCalanques {
+        height: 200px;
+        width: 350px;
+    }
+    #container-pop-icon {
+        display: flex;
+        margin: 5% 5% 5% 4%;
     }
 }
-@media (max-width:320px) {
-    body {
-        margin: 0;
-        padding: 0;
+@media (max-width: 375px) {
+    
+    /* Header */
+    
+    #mapMarker {
+        padding: 4% 4%;
     }
-    /* header */ 
-    .register {
-        top: 35px ;
+    #barreDeRecherche {
+        margin-left: 1.7rem;
     }
-    /* Navbar */
-    #info {
-        margin: 0;
+    #barreDeRecherche input[type=text] {
+        font-size: 19px;
     }
+    #barreDeRecherche input[type=button] {
+        padding: 2% 1%;
+    }
+    #loupe {
+        border-radius: 12px 12px 12px 12px;
+        padding: 4% 4%;
+        position: absolute;
+        right: 1rem;
+    }
+    #divFiltres {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    #divFiltres {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    #infoSpan {
+        font-size: 18px;
+    }
+
+    /* Populaires */
+
+    .cartePopulaires {
+        margin-right: auto;
+        width: 90%;
+        font-size: 17px;
+    }
+    #containerPopulaires {
+        width: 100%;
+    }
+    .cartePopulaires {
+        width: 90%;
+        height: 130px;
+    }
+    .photoPopulaires {
+        height: 130px;
+        width: 130px;
+    }
+    .texteDroite {
+        width: 40%;
+    }
+}
+@media (max-width) {
+    #barreDeRecherche input[type=text] {
+        font-size: 17px;
+    }
+}
+@media (max-width: 350px) {
+    .photoActivites, #photoVieuxPort, #photoLesCalanques {
+        height: 150px;
+        width: 300px;
+    }
+    .texteDroite {
+        font-size: 16px;
+    }
+}
+@media (max-width:340px) {
+    #barreDeRecherche input[type=text] {
+        font-size: 16px;
+    }
+}
+@media (max-width: 330px) {
+    .carteHebergements {
+        width: 90%;
+    }
+}
+@media (max-width: 335px) {
     #infoSpan {
         font-size: 15px;
     }
-    #containerPopulaires {
-        justify-content: center;
-        width: 100%;
-        border-radius: 0;
+     h2, .fa-chart-line {
+        font-size: 19px;
     }
-    #container-herbergements {
-        background-color: white;
-    }
-    .carteHebergements {
-       height: 140px;
-       width: 100%;
-    }
-    #containerCarteHebergements {
-        padding-left: 0;
-    }
-    #TitreActivites {
-        margin-bottom: .5rem;
-    }
-    .fa-star {
-        font-size: 10px;
-    }
-    p {
-        font-size: 12px;
-    }
-    h1, h2, h3 {
-        font-size: 16px;
-    }
-    #titre-hebergement {
-        padding-left: 2rem;
+    .fa-chart-line {
+        padding-top: 0;
     }
 }
-.texteSousImage {
-    text-align:start;
-    padding-top: 0;
-}
-.texteSousImage p {
-    text-align: start;
-    margin-left: 0;
-}
-.containerStars {
-    text-align: start;
-    padding-top: 0;
-}
-.texteSousImage h4 {
-    padding-top: .2rem;
-}
-.texteSousImage .containerStars {
-    padding-top: 0;
-}
-#afficherPlus {
-    padding-left: 0;
-}
-#TitreActivites h2 {
-    text-align: start;
-    padding-left: 1.5rem;
-}
-#ContainerActvites img {
-    height: 100px;
-}
-#containerFooter p {
-   text-align: start;
-   padding-left: 1rem;
-   font-size: 10px;
-}
-#containerFooter {
-    padding-top: 0;
-}
-#containerFooter p {
-    font-size: 17px;
-}
-.texteDroite {
-    padding-left: 0;
-}
-.texteDroite p {
-    padding-left: 1rem;
-}
-/* #recherche-et-filtres h1, p {
-    margin-left: 0;
-} */
-.texteDroite .containerStars {
-    margin-left: 1rem;
-    padding-top: 1rem;
-} 
-#Apropos {
-    padding: 1rem;
-    width: 500px;
-}
-#NosHebergements {
-    padding-right: 3rem;
-    padding-left: 1rem;
-    width: 500px;
-}
-#Assistance {
-    padding: 1rem;
-    width: 500px;
+
+@media (max-width: 320px) {
+    .photoActivites, #photoVieuxPort, #photoLesCalanques {
+        height: 125px;
+        width: 250px;
+    }
+    #barreDeRecherche input[type=text] {
+        font-size: 15px;
+    }
 }
