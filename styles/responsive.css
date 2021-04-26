@@ -164,6 +164,12 @@
         padding-top: 1rem;
     }
 } 
+@media (max-width: 414px) {
+    #TitreRechercheEtFiltres {
+        text-align: start;
+        }
+}
+
 @media (max-width: 400px) {
     .photoActivites, #photoVieuxPort, #photoLesCalanques {
         height: 200px;
@@ -173,13 +179,21 @@
         display: flex;
         margin: 5% 5% 5% 4%;
     }
+    #loupe {
+        border-radius: 12px 12px 12px 12px;
+        padding: 4% 4%;
+        position: absolute;
+        right: 1rem;
+    }
 }
 @media (max-width: 375px) {
-    
+    p {
+        font-size: 14px;
+    }
     /* Header */
     
     #mapMarker {
-        padding: 4% 4%;
+        padding: 5% 5%;
     }
     #barreDeRecherche {
         margin-left: 1.7rem;
@@ -189,12 +203,6 @@
     }
     #barreDeRecherche input[type=button] {
         padding: 2% 1%;
-    }
-    #loupe {
-        border-radius: 12px 12px 12px 12px;
-        padding: 4% 4%;
-        position: absolute;
-        right: 1rem;
     }
     #divFiltres {
         display: flex;
@@ -207,7 +215,7 @@
         margin-top: 2rem;
     }
     #infoSpan {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     /* Populaires */
@@ -269,11 +277,39 @@
 }
 
 @media (max-width: 320px) {
-    .photoActivites, #photoVieuxPort, #photoLesCalanques {
-        height: 125px;
-        width: 250px;
+    /* Taille des polices */
+
+    p, li, .fas, a, #infoSpan {
+        font-size: 14px;
+    }
+    h2, .fa-chart-line {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 17px;
+    }
+
+    /* Header */
+    li {
+        margin-right: -1rem;
     }
     #barreDeRecherche input[type=text] {
         font-size: 15px;
+    }
+    #container-pop-icon {
+        justify-content: space-around;
+    }
+
+    /* Populaires */ 
+
+    .cartePopulaires {
+        margin: 3% auto;
+    }
+
+    /* Activités */
+
+    .photoActivites, #photoVieuxPort, #photoLesCalanques {
+        height: 125px;
+        width: 250px;
     }
 }

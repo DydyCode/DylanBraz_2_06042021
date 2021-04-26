@@ -2,9 +2,13 @@
     padding: 0;
     margin: 0;
 }
+html{
+    scroll-behavior:smooth;
+}
 
 body {
     display: inline-block;
+    font-family: 'Raleway';
 }
 .bold {
     font-weight: bold;
@@ -22,7 +26,7 @@ a {
     text-decoration: none;
     color: black;
 }
-a:hover {
+a:active {
     color:#0065FC ;
 }
 /********** NAVBAR **********/
