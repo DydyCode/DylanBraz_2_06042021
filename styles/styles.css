@@ -17,16 +17,16 @@ li {
     list-style-type: none;
     padding: 1.4rem;
 }
-li:hover {
+#li_hebergements {
     border-top:solid;
     border-top-color: #0065FC;
     transition: ease-in-out 0.2s;
-}
+} 
 a {
     text-decoration: none;
     color: black;
 }
-a:active {
+#a_hebergements{
     color:#0065FC ;
 }
 /********** NAVBAR **********/
