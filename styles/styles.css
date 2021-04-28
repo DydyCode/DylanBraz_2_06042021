@@ -381,9 +381,14 @@ nav a {
     padding-right: 1rem;
     padding-left: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     background-color: #F2F2F2;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
-
+#Apropos {
+    padding-right: 14rem;
+}
+#NosHebergements {
+    padding-right: 14rem;
+}
