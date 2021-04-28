@@ -8,7 +8,7 @@
         font-size: 15px;
     }
     /* Inversion de la bordure des menus */
-    li:hover {
+    li:hover,li:active {
         border-top: none;
         border-bottom:solid;
         border-bottom-color: #0065FC;
