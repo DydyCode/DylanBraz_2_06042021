@@ -101,6 +101,7 @@ nav a {
 #divFiltres {
     display: flex;
     margin-top: 2rem;
+    align-items: baseline;
 }
 
 #sousDivFiltres {
