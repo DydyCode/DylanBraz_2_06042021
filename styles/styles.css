@@ -319,6 +319,7 @@ nav a {
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
+    margin-top: 1rem;
 }
 #ContainerActvites h4 {
     padding: 10px 0 10px 10px;
@@ -331,14 +332,13 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: auto;
+    margin: 0 auto;
 }
 .carteActivites {
     display: flex;
 	flex-direction: column;
-    padding-top: 1rem;
     cursor: pointer;
-    padding-bottom: .9rem;
+    padding-bottom: 2rem;
     padding-right: .9rem; 
     margin: auto;
 }
@@ -352,7 +352,6 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: .8rem;
     width: 50%;
 }
 .photoActivites {
