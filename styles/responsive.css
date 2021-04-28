@@ -7,6 +7,16 @@
     h4 {
         font-size: 15px;
     }
+    /* footer */
+    #containerFooter {
+        justify-content: space-between;
+    }
+    #Apropos {
+        padding-right: 0;
+    }
+    #NosHebergements {
+        padding-right: 0;
+    }
 }
 
 @media (max-width:880px) {
