@@ -1,13 +1,18 @@
-
 /* Affichage mobile */
+
 @media (max-width: 1024px) {
+
+    /* Taille de la police */
+
     p {
         font-size: 14px;
     }
     h4 {
         font-size: 15px;
     }
+
     /* Inversion de la bordure des menus */
+
     li:hover,li:active {
         border-top: none;
         border-bottom:solid;
@@ -18,7 +23,9 @@
         border-bottom:solid;
         border-bottom-color: #0065FC;
     }
-    /* footer */
+
+    /* Footer */
+
     #containerFooter {
         justify-content: space-between;
     }
@@ -32,7 +39,7 @@
 
 @media (max-width:880px) {
 
-    /* Hebergements et populaires */
+    /* Section Hebergements et populaires */
     
         #titre-hebergement {
         padding-left: 1rem;
@@ -70,6 +77,9 @@
         }
 }
 @media (max-width:830px) {
+        
+        /* Taille des images Activités */
+
         .photoActivites, #photoVieuxPort, #photoLesCalanques {
             height: 140px;
             width: 300px;
@@ -101,13 +111,14 @@
 }
 @media (max-width:620px) {
 
-    /*header */
+    /* Header */
 
     #TitreRechercheEtFiltres {
         text-align: center;
     }
 
-    /* centrage de l'input*/
+    /* Centrage de l'input*/
+
     #barreDeRecherche {
         justify-content: center;
         margin: 2rem auto;
@@ -120,7 +131,7 @@
         justify-content: center;
     }
 
-    /*Hébergements a Marseille */
+    /* Section Hébergements à Marseille */
 
     #containerCarteHebergements {
         flex-direction: column;
@@ -133,7 +144,7 @@
         height: 65%;
     }
 
-    /* Activités à Marseille */
+    /* Section Activités à Marseille */
 
     #ContainerActvites {
         display: block;
@@ -146,7 +157,7 @@
 }
 @media (max-width: 540px) {
 
-    /*header*/
+    /* Header */
 
     .register {
         position: absolute;
@@ -162,7 +173,7 @@
         justify-content: space-around;
     }
 
-    /* Hébergements */
+    /* Section Hébergements à Marseille */
 
     .carteHebergements {
         width: 95%;
@@ -172,7 +183,7 @@
         padding-left: 0;
     }
 
-    /* Activités */
+    /* Section Activités à Marseille */
 
     .carteActivites {
     padding-right: 0rem;
@@ -189,6 +200,9 @@
 
 }
 @media (max-width: 500px) {
+
+    /* Footer */
+
     #containerFooter {
         flex-direction: column;
     }
@@ -200,12 +214,11 @@
     }
 } 
 @media (max-width: 414px) {
+
+    /* Header */
+
     #TitreRechercheEtFiltres {
         text-align: start;
-        }
-    .photoActivites, #photoVieuxPort, #photoLesCalanques {
-        height: 200px;
-        width: 350px;
     }
     #container-pop-icon {
         display: flex;
@@ -221,11 +234,22 @@
     #mapMarker {
         padding: 5% 5%;
     }
+
+    /* Section Activités à Maseille */
+
+    .photoActivites, #photoVieuxPort, #photoLesCalanques {
+        height: 200px;
+        width: 350px;
+    }
 }
 @media (max-width: 375px) {
+
+    /* Taille de la police */
+
     p {
         font-size: 14px;
     }
+
     /* Header */
     
     #mapMarker {
@@ -251,7 +275,7 @@
         font-size: 15px;
     }
 
-    /* Populaires */
+    /* Section Les plus Populaires */
 
     .cartePopulaires {
         margin-right: auto;
@@ -274,6 +298,9 @@
     }
 }
 @media (max-width: 350px) {
+
+    /* Section Activités à Maseille */ 
+
     .photoActivites, #photoVieuxPort, #photoLesCalanques {
         height: 150px;
         width: 300px;
@@ -318,6 +345,7 @@
     }
 
     /* Header */
+
     li {
         margin-right: -1rem;
     }
@@ -334,13 +362,13 @@
         padding-left: 0;
     }
 
-    /* Populaires */ 
+    /* Section Les plus Populaires */ 
 
     .cartePopulaires {
         margin: 3% auto;
     }
 
-    /* Activités */
+    /* Section Activités à Maseille */
 
     .photoActivites, #photoVieuxPort, #photoLesCalanques {
         height: 125px;
