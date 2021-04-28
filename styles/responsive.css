@@ -7,6 +7,17 @@
     h4 {
         font-size: 15px;
     }
+    /* Inversion de la bordure des menus */
+    li:hover {
+        border-top: none;
+        border-bottom:solid;
+        border-bottom-color: #0065FC;
+        transition: ease-in-out 0.2s;
+    } 
+    li:active {
+        border-bottom:solid;
+        border-bottom-color: #0065FC;
+    }
     /* footer */
     #containerFooter {
         justify-content: space-between;
@@ -303,6 +314,9 @@
     /* Header */
     li {
         margin-right: -1rem;
+    }
+    #barreDeRecherche {
+        margin: 2rem auto;
     }
     #barreDeRecherche input[type=text] {
         font-size: 15px;

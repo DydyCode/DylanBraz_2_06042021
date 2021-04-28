@@ -17,18 +17,19 @@ li {
     list-style-type: none;
     padding: 1.4rem;
 }
-#li_hebergements {
+li:active, li:hover {
     border-top:solid;
     border-top-color: #0065FC;
     transition: ease-in-out 0.2s;
 } 
+a:active, a:hover {
+    color:#0065FC ;
+}
 a {
     text-decoration: none;
     color: black;
 }
-#a_hebergements{
-    color:#0065FC ;
-}
+
 /********** NAVBAR **********/
 #logoReservia {
     margin-left: 1rem;
