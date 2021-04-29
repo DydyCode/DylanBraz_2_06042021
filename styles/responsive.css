@@ -33,6 +33,14 @@
         border-bottom-color: #0065FC;
         transition: ease-in-out 0.2s;
     } 
+    
+     /* Centrage de l'input*/
+
+     #barreDeRecherche {
+        justify-content: center;
+        margin: 2rem auto;
+    }
+
     /* Section Hebergements et populaires */
     
         #titre-hebergement {
@@ -111,13 +119,6 @@
         text-align: center;
     }
 
-    /* Centrage de l'input*/
-
-    #barreDeRecherche {
-        justify-content: center;
-        margin: 2rem auto;
-    }
-
     /* Filtres */
 
     #info {
@@ -166,12 +167,6 @@
         display: flex;
         justify-content: space-around;
     }
-    /* Centrage de l'input*/
-
-    #barreDeRecherche {
-        justify-content: flex-end;
-    }
-
     /* Section Hébergements à Marseille */
 
     .carteHebergements {
@@ -354,8 +349,8 @@
     #barreDeRecherche {
         margin: 2rem auto;
     }
-    #barreDeRecherche input[type=text] {
-        font-size: 15px;
+    #barreDeRecherche input[type="text"] {
+        font-size: 14px;
     }
     #container-pop-icon {
         justify-content: space-around;
@@ -369,7 +364,7 @@
         justify-content: center;
     }   
     #barreDeRecherche input[type="text"] {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     /* Section Les plus Populaires */ 
