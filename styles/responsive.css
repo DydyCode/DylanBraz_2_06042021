@@ -10,20 +10,6 @@
     h4 {
         font-size: 15px;
     }
-
-    /* Inversion de la bordure des menus */
-
-    li:hover,li:active {
-        border-top: none;
-        border-bottom:solid;
-        border-bottom-color: #0065FC;
-        transition: ease-in-out 0.2s;
-    } 
-    li:active {
-        border-bottom:solid;
-        border-bottom-color: #0065FC;
-    }
-
     /* Footer */
 
     #containerFooter {
@@ -39,6 +25,14 @@
 
 @media (max-width:880px) {
 
+      /* Inversion de la bordure des menus */
+
+      li:hover,li:active {
+        border-top: none;
+        border-bottom:solid;
+        border-bottom-color: #0065FC;
+        transition: ease-in-out 0.2s;
+    } 
     /* Section Hebergements et populaires */
     
         #titre-hebergement {
@@ -171,6 +165,11 @@
     ul {
         display: flex;
         justify-content: space-around;
+    }
+    /* Centrage de l'input*/
+
+    #barreDeRecherche {
+        justify-content: flex-end;
     }
 
     /* Section Hébergements à Marseille */
@@ -347,8 +346,11 @@
     /* Header */
 
     li {
-        margin-right: -1rem;
+      padding: 0;
+      margin-top: 1.4rem;
+      margin-bottom: 1.4rem;
     }
+
     #barreDeRecherche {
         margin: 2rem auto;
     }
@@ -360,6 +362,14 @@
     }
     #sousDivFiltres {
         padding-left: 0;
+    }
+     /* Centrage de l'input*/
+
+     #barreDeRecherche {
+        justify-content: center;
+    }   
+    #barreDeRecherche input[type="text"] {
+        font-size: 13px;
     }
 
     /* Section Les plus Populaires */ 
