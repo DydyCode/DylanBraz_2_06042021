@@ -24,9 +24,7 @@
 }
 
 @media (max-width:880px) {
-
       /* Inversion de la bordure des menus */
-
       li:hover,li:active {
         border-top: none;
         border-bottom:solid;
@@ -88,9 +86,7 @@
         }
 }
 @media (max-width:830px) {
-
     /* Apparition de la loupe */
-
     #loupe {
         display: flex;
         background-color: #0065FC;
@@ -101,9 +97,7 @@
         font-size: 16px;
         cursor: pointer;
     }
-
     /* Disparition du buton rechercher */
-
     #barreDeRecherche input[type=button]{
         display: none;
     }
@@ -245,6 +239,13 @@
     }
 
     /* Header */
+
+    li {
+        padding: 0;
+        padding-bottom: 1rem;
+        margin-top: 1.4rem;
+        margin-bottom: .4rem;
+      }
     
     #mapMarker {
         padding: 5% 5%;
@@ -339,12 +340,6 @@
     }
 
     /* Header */
-
-    li {
-      padding: 0;
-      margin-top: 1.4rem;
-      margin-bottom: 1.4rem;
-    }
 
     #barreDeRecherche {
         margin: 2rem auto;
