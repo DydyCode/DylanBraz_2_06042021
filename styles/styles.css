@@ -12,7 +12,9 @@ body {
     display: inline-block;
     font-family: 'Raleway';
 }
-
+h3 {
+    font-size: 1rem;
+}
 /* Header */
 
 .bold {
@@ -338,7 +340,7 @@ nav a {
     flex-wrap: wrap;
     margin-top: 1rem;
 }
-#ContainerActvites h4 {
+#ContainerActvites h3 {
     padding: 10px 0 10px 10px;
 }
 #TitreActivites {
