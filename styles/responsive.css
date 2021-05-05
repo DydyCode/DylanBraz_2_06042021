@@ -291,10 +291,15 @@
     .texteDroite {
         width: 40%;
     }
+    /* Section Activités à Marseille */
+
+    .photoActivites, #photoVieuxPort, #photoLesCalanques {
+        height: 140px;
+    }
 }
 @media (max-width: 350px) {
 
-    /* Section Activités à Maseille */ 
+    /* Section Activités à Marseille */ 
 
     .photoActivites, #photoVieuxPort, #photoLesCalanques {
         height: 150px;
