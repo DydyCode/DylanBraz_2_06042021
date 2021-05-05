@@ -51,29 +51,31 @@
         #containerPopulaires {
         background-color: #f2f2f2;
         width: 100%;
-        margin-left: 0;
         border-radius:0;
         }
         #container-pop-icon {
         justify-content: space-between;
+        margin: 5% 8% 5% 10%;
+        }
+        #titre-hebergement {
+            margin-left: 3%;
         }
         .cartePopulaires {
             padding: 1% 1% 1% 1%;
             height: 100px;
-            margin: 2% 2% 2% auto;
+            margin: 5% 3% 5% 4%;
+            width: 88%;
+        }
+        #containerPopulaires {
+            margin-left: 0;
         }
         #container-herbergements {
             background-color: white;
             border-radius: 0;
             width: 100%;
-            margin: auto;
         }
         .ActivitesDroite {
             padding-top: 0;
-        }
-        .cartePopulaires {
-            margin-left: auto;
-            margin-right: auto;
         }
 }
 @media (max-width:830px) {
@@ -164,7 +166,7 @@
     /* Section Hébergements à Marseille */
 
     .carteHebergements {
-        width: 95%;
+        width: 94%;
         margin: 2% auto 2% auto;
     }
         #containerCarteHebergements {
@@ -273,16 +275,14 @@
     /* Section Les plus Populaires */
 
     .cartePopulaires {
-        margin-right: auto;
-        width: 92%;
+        margin-right: 0%;
         font-size: 17px;
+        width: 93%;
+        height: 130px;
+        margin-left: 2%;
     }
     #containerPopulaires {
         width: 100%;
-    }
-    .cartePopulaires {
-        width: 90%;
-        height: 130px;
     }
     .photoPopulaires {
         height: 130px;
@@ -295,6 +295,9 @@
 
     .photoActivites, #photoVieuxPort, #photoLesCalanques {
         height: 140px;
+    }
+    .photoActivites {
+        margin: 0;
     }
 }
 @media (max-width: 350px) {
