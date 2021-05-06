@@ -16,7 +16,8 @@
         justify-content: space-between;
     }
     #Apropos {
-        padding-right: 0;
+        padding-right:0;
+        padding-left: 1rem;
     }
     #NosHebergements {
         padding-right: 0;
@@ -107,6 +108,14 @@
         padding: 2% 2%;
     }
 }
+@media (max-width:768px) {
+    #containerFooter {
+        padding-left: 2rem;
+    }
+    #Assistance {
+        padding-right: 32px;
+    }
+}
 @media (max-width:620px) {
 
     /* Header */
@@ -145,6 +154,74 @@
         height: 200px;
         width: 400px;
     }
+}
+@media (max-width: 560px) {
+     /* Header */
+
+     .register {
+        position: absolute;
+        top: 0%;
+        right: 1%;
+    }
+    header {
+        display: inline-block;
+        width: 100%;
+    }
+    ul {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 15%;
+    }
+
+    /* Section recherche et filtres */
+
+    #TitreRechercheEtFiltres {
+        margin-right: 1rem;
+    }
+
+    /* Section Hébergements à Marseille */
+
+    .carteHebergements {
+        width: 94%;
+        margin: 2% auto 2% auto;
+    }
+        #containerCarteHebergements {
+        padding-left: 0;
+    }
+
+    /* Section Populaires */
+
+    .cartePopulaires {
+        margin: 0% 0% 4% 2%;
+        width: 94%;
+    }
+
+    /* Section Activités à Marseille */
+
+    .carteActivites {
+    padding-right: 0rem;
+    }
+    #ContainerActvites {
+    margin-left: 0;
+    }
+    .ActivitesGauche {
+    width: 100%;
+    }
+    .ActivitesDroite {
+    width: 100%;
+    }
+    
+    .photoActivites, #photoVieuxPort, #photoLesCalanques {
+        height: 245px;
+        width: 532px;
+    }
+
+    /* footer */
+
+    #containerFooter {
+        padding-left: .9rem;
+    }
+
 }
 @media (max-width: 540px) {
 
@@ -231,6 +308,12 @@
         height: 200px;
         width: 350px;
     }
+
+    /* Footer */
+
+    .photoActivites, #photoVieuxPort, #photoLesCalanques {
+        width: 390px;
+    }
 }
 @media (max-width: 375px) {
 
@@ -295,6 +378,7 @@
 
     .photoActivites, #photoVieuxPort, #photoLesCalanques {
         height: 140px;
+        width: 355px;
     }
     .photoActivites {
         margin: 0;
@@ -381,4 +465,10 @@
     .photoActivites, #photoVieuxPort, #photoLesCalanques {
         height: 125px;
     }
+}
+
+/* Footer */
+
+#Apropos {
+    padding-left: 0;
 }
