@@ -99,6 +99,8 @@
         padding: 2% 2%;
         font-size: 16px;
         cursor: pointer;
+        position: absolute;
+        right: 15rem;
     }
     /* Disparition du buton rechercher */
     #barreDeRecherche input[type=button]{
@@ -297,6 +299,10 @@
     #loupe {
         padding: 5% 5%;
         right: 5rem;
+    }
+    #loupe {
+        position: absolute;
+        right: 1rem;
     }
     #mapMarker {
         padding: 5% 5%;
